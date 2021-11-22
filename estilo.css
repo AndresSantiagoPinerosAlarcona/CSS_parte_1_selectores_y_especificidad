@@ -1,0 +1,31 @@
+		/*Tipos de selectores */
+*{										/*Selector universal: selecciona todo todo*/
+	color:red; 
+}
+
+h1{										/*Selector de tipo: seleccion por elemento*/
+	color:blue; 
+}
+
+.Titulo-de-la-clase{					/*Selector por clases: seleciona por los elementos marcados con la clase, ejemplo: ".Titulo-de-la-clase"
+										se debe de inicar el nombre de la clase en el archivo HTML. ejemplo <h3 class="Titulo-de-la-clase">Titulo</h3>*/
+	color:pink;
+}
+
+#id-del-elemento{						/*Selector por ID: seleccion un elemento en el archivo HTML con el id="id-del-elemento"
+										Iportante!!!: cada ID debe de ser unico por cada elemento*/
+	color:green; 
+}
+
+[tipo_de_atributo="nombredelatributo"]{	/*Selector por atributo: seleccion por atributo*/
+	color:purple; 
+}
+
+h2 p{									/*Selector descendiente: selecciona los elementos que estan en una clase dentro de otra clase
+										ejemplo: seleciona los "p" que estan dentro de "h2" */
+	color:blue; 
+}
+
+h4:hover {								/*Selector por pseudo-clases: Al pasar el mouse sobre el elemento cambia de color*/
+	color:green; 
+}
